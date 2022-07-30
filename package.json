@@ -36,5 +36,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lskywolfll/common-utils.git"
+  }
 }
