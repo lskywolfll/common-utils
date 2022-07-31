@@ -1,7 +1,5 @@
-
-
 export interface ParamsToValidateIdentificator {
-    countryCode: string;
-    identificator: string;
-    taxIdentificator: string;
+  countryCode: string;
+  identificator: string;
+  taxIdentificator: string;
 }
