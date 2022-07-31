@@ -27,10 +27,8 @@ export function isValidIdentificatorByAllTax(countryCode: string,identificator:s
     let validated = false;
 
     if(taxes.length > 0){
-        for (let index = 0; index < taxes.length; index++) {
+        for (const tax of taxes) {
             if(validated) break;
-
-            const tax = taxes[index];
             const {isValid} = stdnum[countryCode][tax].validate(identificator);
             validated = isValid;
         }
