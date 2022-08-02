@@ -37,7 +37,7 @@ const identificator = '21749812-0';
 const countryCode = 'cl';
 const isValidIdentificator = isValidIdentificatorByAllTax(countryCode, identificator);
 
-console.log(isValidIdentificator); // response true
+console.log(isValidIdentificator); // response: true
 ```
 
 ### Validate Identificator By Tax
@@ -52,5 +52,5 @@ const params = {
 };
 
 const isValidIdentificator = isValidIdentificatorByTax(params);
-console.log(isValidIdentificator); // returns: true
+console.log(isValidIdentificator); // response: true
 ```
