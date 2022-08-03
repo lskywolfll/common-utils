@@ -54,3 +54,13 @@ const params = {
 const isValidIdentificator = isValidIdentificatorByTax(params);
 console.log(isValidIdentificator); // response: true
 ```
+
+### Get Taxes By Country
+
+```Typescript
+import { getTaxesByCountryCode } from 'utils-skywolf';
+
+const countryCode = 'cl';
+const taxes = getTaxesByCountryCode(countryCode);
+console.log(taxes); // response: ['run', 'rut']
+```
