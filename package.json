@@ -1,6 +1,6 @@
 {
   "name": "utils-skywolf",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "a library for use day a day in the work",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
