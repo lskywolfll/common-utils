@@ -19,7 +19,7 @@ test('isValidCountryCode OK', () => {
 });
 
 test('isValidIdentificatorByAllTax OK', () => {
-  const isValid = isValidIdentificatorByAllTax('cl', '202007643');
+  const isValid = isValidIdentificatorByAllTax('cl', '9955857-1');
   expect(isValid).toBe(true);
 });
 
